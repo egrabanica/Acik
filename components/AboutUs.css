@@ -1,0 +1,396 @@
+/*
+ *   Copyright (c) 2025 
+ *   All rights reserved.
+ */
+/* AboutUs Component Styles */
+.aboutus {
+  width: 1728px;
+  height: 2234px;
+  position: relative;
+}
+
+/* Footer Section */
+.footer-section {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-frame {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-basic-look {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-section .pattern-background {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  aspect-ratio: 181/117;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-section .vertical-left {
+  width: 1117px;
+  height: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 149px;
+  top: 0;
+}
+
+.footer-section .vertical-right {
+  width: 1117px;
+  height: 0;
+  transform: rotate(90.156deg);
+  flex-shrink: 0;
+  stroke-width: 4px;
+  stroke: #D76A2D;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  left: 1557px;
+  top: 0;
+}
+
+.footer-logo-left {
+  width: 432px;
+  height: 432px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 107px;
+  top: 423px;
+}
+
+.footer-logo-right {
+  width: 432px;
+  height: 432px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 1188px;
+  top: 423px;
+}
+
+.footer-text {
+  width: 704px;
+  height: 505px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 512px;
+  top: 386px;
+}
+
+.restaurant-name {
+  width: 554px;
+  height: 106px;
+  flex-shrink: 0;
+  color: #B37A4C;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.341%;
+  letter-spacing: 2.4px;
+  position: absolute;
+  left: 79px;
+  top: 0;
+}
+
+.restaurant-address {
+  width: 587px;
+  height: 104px;
+  flex-shrink: 0;
+  color: #BB8050;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.341%;
+  letter-spacing: 2.4px;
+  position: absolute;
+  left: 62px;
+  top: 103px;
+}
+
+.contact-info {
+  width: 704px;
+  height: 194px;
+  flex-shrink: 0;
+  color: #B97E4F;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 185.341%;
+  letter-spacing: 2.4px;
+  position: absolute;
+  left: 0;
+  top: 311px;
+}
+
+/* About Us Section */
+.aboutus-section {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 1117px;
+}
+
+.aboutus-basic-look {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.aboutus-section .pattern-background {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  aspect-ratio: 181/117;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.aboutus-section .vertical-left {
+  width: 1117px;
+  height: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 146px;
+  top: 0;
+}
+
+.aboutus-section .vertical-right {
+  width: 1117px;
+  height: 0;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 1558px;
+  top: 0;
+}
+
+.aboutus-logo-large-left {
+  width: 515px;
+  height: 515px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 90px;
+  top: 49px;
+}
+
+.aboutus-logo-large-right {
+  width: 515px;
+  height: 515px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 1094px;
+  top: 602px;
+}
+
+.aboutus-logo-small-top {
+  width: 199px;
+  height: 193px;
+  flex-shrink: 0;
+  aspect-ratio: 199/193;
+  position: absolute;
+  left: 969px;
+  top: 162px;
+}
+
+.aboutus-logo-small-bottom {
+  width: 199px;
+  height: 199px;
+  flex-shrink: 0;
+  aspect-ratio: 1/1;
+  position: absolute;
+  left: 485px;
+  top: 720px;
+}
+
+.intro-text {
+  width: 948px;
+  height: 147px;
+  flex-shrink: 0;
+  color: #BA7F4F;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.665%;
+  letter-spacing: 1.6px;
+  position: absolute;
+  left: 595px;
+  top: 29px;
+}
+
+.philosophy-text {
+  width: 948px;
+  height: 222px;
+  flex-shrink: 0;
+  color: #B4794B;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.665%;
+  letter-spacing: 1.6px;
+  position: absolute;
+  left: 585px;
+  top: 336px;
+}
+
+.experience-text {
+  width: 948px;
+  height: 161px;
+  flex-shrink: 0;
+  color: #B2794B;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.665%;
+  letter-spacing: 1.6px;
+  position: absolute;
+  left: 158px;
+  top: 559px;
+}
+
+.closing-text {
+  width: 911px;
+  height: 195px;
+  flex-shrink: 0;
+  color: #B3794B;
+  text-align: center;
+  font-family: Jomolhari, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 148.665%;
+  letter-spacing: 1.6px;
+  position: absolute;
+  left: 167px;
+  top: 897px;
+}
+
+/* Hover Effects */
+.footer-logo-left:hover,
+.footer-logo-right:hover,
+.aboutus-logo-large-left:hover,
+.aboutus-logo-large-right:hover,
+.aboutus-logo-small-top:hover,
+.aboutus-logo-small-bottom:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/* Responsive Design */
+@media (max-width: 1728px) {
+  .aboutus {
+    transform: scale(0.8);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 1200px) {
+  .aboutus {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+  
+  .restaurant-name,
+  .restaurant-address,
+  .contact-info {
+    font-size: 36px;
+    line-height: 150%;
+    letter-spacing: 1.8px;
+  }
+  
+  .intro-text,
+  .philosophy-text,
+  .experience-text,
+  .closing-text {
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutus {
+    transform: scale(0.4);
+    transform-origin: top left;
+  }
+  
+  .restaurant-name,
+  .restaurant-address,
+  .contact-info {
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 1.2px;
+    width: 90%;
+    left: 5%;
+  }
+  
+  .intro-text,
+  .philosophy-text,
+  .experience-text,
+  .closing-text {
+    font-size: 18px;
+    line-height: 130%;
+    letter-spacing: 0.9px;
+    width: 90%;
+    left: 5%;
+  }
+  
+  .footer-logo-left,
+  .footer-logo-right {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .aboutus-logo-large-left,
+  .aboutus-logo-large-right {
+    width: 350px;
+    height: 350px;
+  }
+  
+  .aboutus-logo-small-top,
+  .aboutus-logo-small-bottom {
+    width: 150px;
+    height: 150px;
+  }
+}

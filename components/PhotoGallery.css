@@ -1,0 +1,166 @@
+/* PhotoGallery Component Styles */
+.photo-gallery {
+  width: 1728px;
+  height: 1117px;
+  position: relative;
+}
+
+.gallery-frame {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  background: #FFF;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Background Pattern */
+.pattern-background {
+  width: 1728px;
+  height: 1117px;
+  flex-shrink: 0;
+  aspect-ratio: 181/117;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Decorative Lines */
+.vertical-right {
+  width: 1117px;
+  height: 0;
+  background: #D76A2D;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  position: absolute;
+  left: 1564px;
+  top: 0;
+}
+
+.vertical-left {
+  width: 1117px;
+  height: 0;
+  transform: rotate(90.156deg);
+  flex-shrink: 0;
+  stroke-width: 4px;
+  stroke: #D76A2D;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  left: 160px;
+  top: 0;
+}
+
+/* Photo Grid */
+.photo-grid {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-photo {
+  width: 307px;
+  height: 404px;
+  flex-shrink: 0;
+  aspect-ratio: 19/25;
+  position: absolute;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-1 {
+  left: 268px;
+  top: 68px;
+}
+
+.photo-2 {
+  left: 710px;
+  top: 68px;
+}
+
+.photo-3 {
+  left: 1178px;
+  top: 68px;
+}
+
+.photo-4 {
+  left: 268px;
+  top: 604px;
+}
+
+.photo-5 {
+  left: 707px;
+  top: 604px;
+}
+
+.photo-6 {
+  left: 1178px;
+  top: 604px;
+}
+
+/* Hover Effects */
+.gallery-photo:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 1728px) {
+  .photo-gallery,
+  .gallery-frame {
+    transform: scale(0.8);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 1200px) {
+  .photo-gallery,
+  .gallery-frame {
+    transform: scale(0.6);
+    transform-origin: top left;
+  }
+}
+
+@media (max-width: 768px) {
+  .photo-gallery,
+  .gallery-frame {
+    transform: scale(0.4);
+    transform-origin: top left;
+  }
+  
+  .gallery-photo {
+    width: 280px;
+    height: 370px;
+  }
+  
+  .photo-1 {
+    left: 50px;
+    top: 50px;
+  }
+  
+  .photo-2 {
+    left: 350px;
+    top: 50px;
+  }
+  
+  .photo-3 {
+    left: 650px;
+    top: 50px;
+  }
+  
+  .photo-4 {
+    left: 50px;
+    top: 450px;
+  }
+  
+  .photo-5 {
+    left: 350px;
+    top: 450px;
+  }
+  
+  .photo-6 {
+    left: 650px;
+    top: 450px;
+  }
+}
